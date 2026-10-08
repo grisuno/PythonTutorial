@@ -1,0 +1,212 @@
+{
+  "concepts": [
+    {
+      "name": "script",
+      "files": [
+        "1.py",
+        "2.py",
+        "3.py",
+        "4.py",
+        "5.py"
+      ],
+      "mentions": 11,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "python",
+      "files": [
+        "1.py",
+        "2.py",
+        "3.py",
+        "4.py",
+        "5.py"
+      ],
+      "mentions": 7,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "este",
+      "files": [
+        "1.py",
+        "2.py",
+        "3.py",
+        "4.py",
+        "5.py"
+      ],
+      "mentions": 6,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "aprenderemos",
+      "files": [
+        "2.py",
+        "3.py",
+        "4.py",
+        "5.py"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "para",
+      "files": [
+        "1.py",
+        "2.py",
+        "5.py"
+      ],
+      "mentions": 8,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "las",
+      "files": [
+        "2.py",
+        "3.py",
+        "4.py"
+      ],
+      "mentions": 5,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "una",
+      "files": [
+        "1.py",
+        "3.py",
+        "4.py"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "como",
+      "files": [
+        "1.py",
+        "4.py",
+        "5.py"
+      ],
+      "mentions": 3,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "estructuras",
+      "files": [
+        "2.py",
+        "3.py"
+      ],
+      "mentions": 3,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "con",
+      "files": [
+        "4.py",
+        "5.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "del",
+      "files": [
+        "1.py",
+        "5.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "exploraremos",
+      "files": [
+        "2.py",
+        "3.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "funci",
+      "files": [
+        "4.py",
+        "5.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "importar",
+      "files": [
+        "1.py",
+        "2.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "librer",
+      "files": [
+        "1.py",
+        "2.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "primer",
+      "files": [
+        "1.py",
+        "5.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "que",
+      "files": [
+        "3.py",
+        "4.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "segundo",
+      "files": [
+        "2.py",
+        "5.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "son",
+      "files": [
+        "3.py",
+        "4.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "usar",
+      "files": [
+        "2.py",
+        "4.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    }
+  ],
+  "relations": [],
+  "dialectic": [
+    "Thesis: `aprenderemos` centralizes 4 files; Antithesis: `como` pulls 3 files with 2 shared (Jaccard 0.40); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `aprenderemos` centralizes 4 files; Antithesis: `con` pulls 2 files with 2 shared (Jaccard 0.50); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `aprenderemos` centralizes 4 files; Antithesis: `este` pulls 5 files with 4 shared (Jaccard 0.80); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `aprenderemos` centralizes 4 files; Antithesis: `estructuras` pulls 2 files with 2 shared (Jaccard 0.50); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `aprenderemos` centralizes 4 files; Antithesis: `exploraremos` pulls 2 files with 2 shared (Jaccard 0.50); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `aprenderemos` centralizes 4 files; Antithesis: `funci` pulls 2 files with 2 shared (Jaccard 0.50); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `aprenderemos` centralizes 4 files; Antithesis: `las` pulls 3 files with 3 shared (Jaccard 0.75); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `aprenderemos` centralizes 4 files; Antithesis: `para` pulls 3 files with 2 shared (Jaccard 0.40); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `aprenderemos` centralizes 4 files; Antithesis: `python` pulls 5 files with 4 shared (Jaccard 0.80); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `aprenderemos` centralizes 4 files; Antithesis: `que` pulls 2 files with 2 shared (Jaccard 0.50); Synthesis: should they merge, split by layer, or keep `bridges` explicit?"
+  ]
+}
