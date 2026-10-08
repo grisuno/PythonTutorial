@@ -11,7 +11,7 @@
 
 **Total Files Parsed:** 5 | **Total Symbols Extracted:** 5 | **Total Imports:** 2
 
-<!-- ranking_model: v1.0 | weights: {ppr:0.45,auth:0.2,test:0.15,doc:0.1,fresh:0.1} | alpha:0.85 | commit:1e0fd0b | date:2026-07-18 -->
+<!-- ranking_model: v1.0 | weights: {ppr:0.45,auth:0.2,test:0.15,doc:0.1,fresh:0.1} | alpha:0.85 | commit:05a4468 | date:2026-07-18 -->
 
 
 ## Table of Contents
@@ -24,12 +24,11 @@
 6. [Hotspot Analysis](#hotspot-analysis)
 7. [Change Impact Analysis](#change-impact-analysis)
 8. [Suggested Linting Rules](#suggested-linting-rules)
-9. [Concept Graph](#concept-graph)
-10. [Query Recipes](#query-recipes)
-11. [Structural Knowledge Map](#structural-knowledge-map)
-12. [UML Class Diagram](#uml-class-diagram)
-13. [Code Property Graph](#code-property-graph)
-14. [Architecture Reference](#architecture-reference)
+9. [Query Recipes](#query-recipes)
+10. [Structural Knowledge Map](#structural-knowledge-map)
+11. [UML Class Diagram](#uml-class-diagram)
+12. [Code Property Graph](#code-property-graph)
+13. [Architecture Reference](#architecture-reference)
     - [PY (5 files)](#py-5-files)
 
 ---
@@ -124,50 +123,6 @@ Files ranked by combined complexity (symbol count) and centrality (connection co
 | `3.py` | 0.000 | 0.000 | 0.000 | 0 | 0 |
 | `5.py` | 0.000 | 0.000 | 0.000 | 0 | 0 |
 | `4.py` | 1.000 | 0.000 | 0.400 | 5 | 0 |
-
----
-
-## Concept Graph
-
-Semantic second-brain layer: nouns are concept nodes, verbs are edges. Each noun maps atomically to a file set (EXTRACTED); each verb aggregates structural imports, calls, and inherits into consumes, invokes, extends, depends_on, or bridges (INFERRED).
-
-**20 concepts, 0 relations.**
-
-| Concept | Files | Mentions |
-|---------|-------|----------|
-| `script` | 5 | 11 |
-| `python` | 5 | 7 |
-| `este` | 5 | 6 |
-| `aprenderemos` | 4 | 4 |
-| `para` | 3 | 8 |
-| `las` | 3 | 5 |
-| `una` | 3 | 4 |
-| `como` | 3 | 3 |
-| `estructuras` | 2 | 3 |
-| `con` | 2 | 2 |
-| `del` | 2 | 2 |
-| `exploraremos` | 2 | 2 |
-| `funci` | 2 | 2 |
-| `importar` | 2 | 2 |
-| `librer` | 2 | 2 |
-| `primer` | 2 | 2 |
-| `que` | 2 | 2 |
-| `segundo` | 2 | 2 |
-| `son` | 2 | 2 |
-| `usar` | 2 | 2 |
-
-### Dialectic Prompts
-
-- Thesis: `aprenderemos` centralizes 4 files; Antithesis: `como` pulls 3 files with 2 shared (Jaccard 0.40); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `aprenderemos` centralizes 4 files; Antithesis: `con` pulls 2 files with 2 shared (Jaccard 0.50); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `aprenderemos` centralizes 4 files; Antithesis: `este` pulls 5 files with 4 shared (Jaccard 0.80); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `aprenderemos` centralizes 4 files; Antithesis: `estructuras` pulls 2 files with 2 shared (Jaccard 0.50); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `aprenderemos` centralizes 4 files; Antithesis: `exploraremos` pulls 2 files with 2 shared (Jaccard 0.50); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `aprenderemos` centralizes 4 files; Antithesis: `funci` pulls 2 files with 2 shared (Jaccard 0.50); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `aprenderemos` centralizes 4 files; Antithesis: `las` pulls 3 files with 3 shared (Jaccard 0.75); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `aprenderemos` centralizes 4 files; Antithesis: `para` pulls 3 files with 2 shared (Jaccard 0.40); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `aprenderemos` centralizes 4 files; Antithesis: `python` pulls 5 files with 4 shared (Jaccard 0.80); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `aprenderemos` centralizes 4 files; Antithesis: `que` pulls 2 files with 2 shared (Jaccard 0.50); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
 
 ---
 
